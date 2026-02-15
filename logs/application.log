@@ -1,0 +1,21 @@
+2026-02-15 19:53:04 INFO  com.example.hello.HelloServiceApplication - Starting HelloServiceApplication using Java 21.0.10 with PID 4751 (/Users/abhi/Documents/workspace-spring-tools-for-eclipse-5.0.1.RELEASE/hello-service/target/classes started by abhi in /Users/abhi/Documents/workspace-spring-tools-for-eclipse-5.0.1.RELEASE/hello-service)
+2026-02-15 19:53:04 INFO  com.example.hello.HelloServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-15 19:53:04 INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-15 19:53:04 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-15 19:53:04 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-15 19:53:04 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-15 19:53:04 INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 282 ms
+2026-02-15 19:53:04 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-15 19:53:04 INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-15 19:53:04 INFO  com.example.hello.HelloServiceApplication - Started HelloServiceApplication in 0.568 seconds (process running for 0.958)
+2026-02-15 19:53:15 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-15 19:53:15 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-15 19:53:15 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-15 19:53:15 INFO  com.example.hello.controller.HelloController - Received request for /hello
+2026-02-15 19:53:15 INFO  com.example.hello.service.HelloService - HelloService.getHelloMessage() invoked
+2026-02-15 19:53:15 INFO  com.example.hello.controller.HelloController - Returning response
+2026-02-15 20:00:35 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-02-15 20:00:35 INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-15 20:00:35 INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2026-02-15 20:00:35 INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-15 20:00:35 INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
